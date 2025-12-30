@@ -47,7 +47,7 @@ export default function Hero() {
           <div className="overflow-hidden"><span className="hero-line block">Lamine</span></div>
           <div className="overflow-hidden"><span className="hero-line block">Cissé</span></div>
           {/* Mot clé qui définit son univers, en gris pour le contraste */}
-          <div className="overflow-hidden"><span className="hero-line block text-gray-600">Aviation.</span></div>
+          <div className="overflow-hidden"><span className="hero-line block text-gray-600">LOWCODE /NOCODE.</span></div>
         </h1>
         
         {/* SOUS-TITRE : Technique et Précis */}
