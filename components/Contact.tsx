@@ -51,14 +51,14 @@ export default function Contact() {
         </h2>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-16 contact-link">
-          <a 
-            href="mailto:6clamine6c@gmail.com" 
-            className="group relative px-8 py-4 bg-white text-black rounded-full font-bold uppercase tracking-widest text-sm hover:scale-105 hover:shadow-[0_20px_60px_rgba(255,255,255,0.3)] transition-all duration-300 flex items-center gap-2"
+          <button 
+            onClick={() => window.location.href = "mailto:6clamine6c@gmail.com"}
+            className="group relative px-8 py-4 bg-white text-black rounded-full font-bold uppercase tracking-widest text-sm hover:scale-105 hover:shadow-[0_20px_60px_rgba(255,255,255,0.3)] transition-all duration-300 flex items-center gap-2 cursor-pointer border-none"
           >
             <MaterialIcon icon="mail" size={20} className="" />
             <span className="relative z-10">Me Contacter</span>
             <div className="absolute inset-0 rounded-full bg-blue-500 blur-lg opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
-          </a>
+          </button>
           
           <a href="https://www.linkedin.com/in/developpeurnocodeafriquesenegal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" className="px-8 py-4 border border-white/20 text-white rounded-full font-bold uppercase tracking-widest text-sm hover:bg-white hover:text-black hover:border-white hover:scale-105 transition-all duration-300 flex items-center gap-2">
             <MaterialIcon icon="work" size={20} className="" />
