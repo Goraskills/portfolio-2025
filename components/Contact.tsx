@@ -60,7 +60,7 @@ export default function Contact() {
             <div className="absolute inset-0 rounded-full bg-blue-500 blur-lg opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
           </a>
           
-          <a href="#" className="px-8 py-4 border border-white/20 text-white rounded-full font-bold uppercase tracking-widest text-sm hover:bg-white hover:text-black hover:border-white hover:scale-105 transition-all duration-300 flex items-center gap-2">
+          <a href="https://www.linkedin.com/in/developpeurnocodeafriquesenegal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" className="px-8 py-4 border border-white/20 text-white rounded-full font-bold uppercase tracking-widest text-sm hover:bg-white hover:text-black hover:border-white hover:scale-105 transition-all duration-300 flex items-center gap-2">
             <MaterialIcon icon="work" size={20} className="" />
             LinkedIn
           </a>
