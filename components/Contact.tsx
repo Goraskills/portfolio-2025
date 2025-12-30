@@ -52,7 +52,7 @@ export default function Contact() {
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-16 contact-link">
           <a 
-            href="mailto:contact@laminecisse.com" 
+            href="mailto:6clamine6c@gmail.com" 
             className="group relative px-8 py-4 bg-white text-black rounded-full font-bold uppercase tracking-widest text-sm hover:scale-105 hover:shadow-[0_20px_60px_rgba(255,255,255,0.3)] transition-all duration-300 flex items-center gap-2"
           >
             <MaterialIcon icon="mail" size={20} className="" />
